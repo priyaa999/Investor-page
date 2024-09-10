@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.image{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(4,1fr) ;
+    gap: 20px;
+    
+}
+.child-container{
+    width:270px;
+    height: 400px;
+    box-shadow: 5px 5px 5px rgba(99, 96, 96, 0.1);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.child-container > h1{
+  font-size:15px ;
+}
+
+.avatar{
+   width: 100%;
+   border-radius:5px;
+ 
+}
+
+p{
+   margin-top: -8px;
+
+}
+
+.logo{
+    width: 140px;
+    height: auto;
+    margin-top: -15px;
+}
